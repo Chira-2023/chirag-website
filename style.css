@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 37);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-size: 1.01rem;
+    color: rgb(153, 153, 226);
+}
+
+
+/* ****************main**************** */
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.firstSection>div {
+    width: 34%;
+}
+
+.leftSection {
+    /* background-color: red; */
+    font-size: 2.4rem;
+    /* margin: 70px 0; */
+}
+.leftSection .button{
+    padding: 25px 0;
+}
+button{
+    padding: 12px;
+    font-size: 16px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: #1e2167;
+    
+}
+
+.rightSection img {
+    width: 80%;
+    /* background-color: blue; */
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+.gray-text {
+    color: gray;
+}
+
+#element {
+    color: rgb(170, 107, 228);
+
+}
+
+main>hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 15px 80px;
+}
+
+
+/* **********SecoundSection********** */
+.secoundSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secoundSection .box {
+    background: white;
+    /* border: 0; */
+    width: 75vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secoundSection .vartical-line{
+    height: 80px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.vartical-line .image-top{
+    width: 50px;
+    top: -54px;
+    position: relative;
+    left: -24px;
+}
+.vartical-line .vertical-titel{
+    width: 150px;
+    position: relative;
+    top: 39px;
+    left: -20px;
+    font-style: 14px;
+}
+.vartical-line .vertical-disc{
+    position: relative;
+    top: 38px;
+    left: -20px;
+    color: gray;
+    width: 150px;
+    font-size: 12px;
+    margin: 9px 0;
+}
+
+
+
+/* ************footer************ */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    /* height: 150px; */
+    padding: 24px 52px;
+}
+.footer > div{
+    width: 100px;
+}
+.footer ul {
+
+    list-style: none;
+}
+footer{
+    background-color: #0e0e1a;
+
+}
+footer .footer-text{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
